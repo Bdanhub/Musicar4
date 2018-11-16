@@ -392,9 +392,9 @@ if (message.content.startsWith(prefix + "upt.ime")) {
 });
 
 client.on('ready', () => {
-  client.user.setGame(`4!help .`,'');
+  client.user.setGame('4!help 4!play ','https://www.twitch.tv/peery13');
   console.log('---------------');
-  console.log('Desert Bot Is Online')
+  console.log(' Bot Is Online')
   console.log('---------------')
 });
 
